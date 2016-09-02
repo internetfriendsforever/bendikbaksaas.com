@@ -1,0 +1,28 @@
+{
+  "name": "bendikbaksaas.com",
+  "version": "0.0.1",
+  "description": "Bendik Baksaas offical website",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/flatpack"
+  },
+  "author": "internetfriendsforever <anyone@internetfriendsforever.com>",
+  "license": "MIT",
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-eslint": "^4.1.6",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "babel-preset-stage-0": "^6.1.18",
+    "flatpack-js": "0.0.2",
+    "history": "1.13.1",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-router": "1.0.0",
+    "react-router-to-array": "^0.1.2"
+  }
+}
