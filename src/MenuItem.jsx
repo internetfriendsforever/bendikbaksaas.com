@@ -3,13 +3,20 @@ import { Link } from 'react-router'
 
 const styles = {
   item: {
-    padding: 0
+    padding: 0,
+    float: 'left'
+  },
+
+  link: {
+    display: 'block',
+    textDecoration: 'none',
+    padding: '1em'
   }
 }
 
 export default props => (
   <li style={styles.item}>
-    <Link to={props.path}>
+    <Link style={styles.link} to={props.path}>
       {props.children}
     </Link>
   </li>

@@ -26,6 +26,7 @@ function page (locals, callback) {
               margin: 0;
               background: black;
               color: white;
+              font-family: sans-serif;
             }
 
             a {

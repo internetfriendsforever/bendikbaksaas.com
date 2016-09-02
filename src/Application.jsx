@@ -2,6 +2,12 @@ import React from 'react'
 
 import Menu from './Menu'
 
+const styles = {
+  application: {
+    position: 'relative'
+  }
+}
+
 export default class Application extends React.Component {
   static propTypes = {
     children: React.PropTypes.object
@@ -13,7 +19,7 @@ export default class Application extends React.Component {
 
   render () {
     return (
-      <div>
+      <div style={styles.application}>
         <Menu />
         {this.props.children}
       </div>

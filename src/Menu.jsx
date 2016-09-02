@@ -1,12 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router'
+import MeasureIt from 'react-measure-it'
 
 import MenuItem from './MenuItem'
 
 const styles = {
   menu: {
+    position: 'absolute',
+    top: 0,
+    right: 0,
     padding: 0,
-    listStyle: 'none'
+    margin: 0,
+    listStyle: 'none',
   }
 }
 
