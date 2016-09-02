@@ -1,7 +1,10 @@
 import React from 'react'
+import { List } from 'flatpack-js'
+
+import MusicListItem from './MusicListItem'
 
 export default () => (
-  <div>
-    Music
-  </div>
+  <List path="music">
+    {item => <MusicListItem {...item} />}
+  </List>
 )

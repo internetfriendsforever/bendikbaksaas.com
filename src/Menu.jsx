@@ -12,12 +12,12 @@ const styles = {
     padding: 0,
     margin: 0,
     listStyle: 'none',
+    zIndex: 10
   }
 }
 
 export default () => (
   <ul style={styles.menu}>
-    <MenuItem path="/">Home</MenuItem>
     <MenuItem path="/music">Music</MenuItem>
     <MenuItem path="/shows">Shows</MenuItem>
     <MenuItem path="/press">Press</MenuItem>
