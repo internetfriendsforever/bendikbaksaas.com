@@ -19,8 +19,19 @@ function page (locals, callback) {
     callback(null, `
       <html>
         <head>
-          <title>Bendik Baksaas</title>
           <meta charset="utf-8" />
+          <title>Bendik Baksaas</title>
+          <style>
+            body {
+              margin: 0;
+              background: black;
+              color: white;
+            }
+
+            a {
+              color: white;
+            }
+          </style>
         </head>
         <body>
           <div id="target">
